@@ -112,9 +112,7 @@ body {
 }
 .container .info-card > .inner-card-container .sub-category-banner {
   display: flex;
-  position: absolute;
   justify-content: space-between;
-  width: 100%;
   padding: 10px 20px;
 }
 .container .info-card > .inner-card-container .sub-category-banner .fa-ellipsis {

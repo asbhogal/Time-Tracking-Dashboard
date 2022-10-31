@@ -1,6 +1,13 @@
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 520px) {
     .container {
         display: grid;
         grid-template-columns: auto !important;
+        gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 519px) {
+    body {
+        padding: 0 15px;
     }
 }

@@ -14,22 +14,31 @@ body {
   padding: 0 50px;
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 520px) {
   .container {
     display: grid;
     grid-template-columns: auto !important;
+    gap: 10px;
+  }
+}
+@media only screen and (max-width: 519px) {
+  body {
+    padding: 0 15px;
   }
 }
 /****** COLORS ******/
 /* PRIMARY */
 /* NEUTRAL */
+/****** STYLING ******/
 .container {
   display: grid;
-  background: red;
-  height: 360px;
-  width: 600px;
+  height: 525px;
+  width: 620px;
   grid-template-columns: auto auto auto;
   gap: 15px;
+}
+.container .info-card {
+  border-radius: 10px;
 }
 .container #profile-info {
   grid-row-start: 1;

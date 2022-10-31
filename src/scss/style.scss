@@ -6,11 +6,13 @@
 
 .container {
     display: grid;
-    background: red;
-    height: 360px;
-    width: 600px;
+    height: 525px;
+    width: 620px;
     grid-template-columns: auto auto auto;
     gap: 15px;
+    .info-card {
+        border-radius: $border-radius;
+    }
     #profile-info {
         grid-row-start: 1;
         grid-row-end: 4;

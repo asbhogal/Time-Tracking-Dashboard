@@ -6,7 +6,7 @@
     }
 }
 
-@media only screen and (max-width: 519px) {
+@media only screen and (max-width: 520px) {
     body {
         padding: 0 15px;
     }
@@ -14,6 +14,15 @@
         display: grid;
         grid-template-columns: auto auto auto;
         width: 100%;
+    }
+
+    .profile-info-section {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 100%;
+        .profile-photo {
+            scale: 0.8;
+        }
     }
 }
 

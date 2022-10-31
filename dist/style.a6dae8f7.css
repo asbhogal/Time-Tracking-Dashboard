@@ -21,7 +21,7 @@ body {
     gap: 10px;
   }
 }
-@media only screen and (max-width: 519px) {
+@media only screen and (max-width: 520px) {
   body {
     padding: 0 15px;
   }
@@ -29,6 +29,14 @@ body {
     display: grid;
     grid-template-columns: auto auto auto;
     width: 100%;
+  }
+  .profile-info-section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+  }
+  .profile-info-section .profile-photo {
+    scale: 0.8;
   }
 }
 /****** COLORS ******/
@@ -52,27 +60,40 @@ body {
   height: 80%;
   border-radius: 10px;
 }
-.container .info-card > .profile-card-container {
+.container #profile-info {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  background-color: yellow;
+}
+.container #profile-info > .profile-card-container {
   position: relative;
   height: 70%;
   background: red;
   border-radius: 10px;
 }
-.container .info-card > nav ul {
+.container #profile-info > .profile-card-container .profile-info-section {
+  position: absolute;
+  display: grid;
+  grid-template-rows: 55px auto 40px;
+  width: 100%;
+  align-content: space-evenly;
+  height: 100%;
+  padding-left: 30px;
+}
+.container #profile-info > .profile-card-container .profile-info-section .profile-photo {
+  border: 3px solid #000;
+  border-radius: 50%;
+}
+.container #profile-info > nav ul {
   list-style-type: none;
   position: absolute;
   transform: translate(30px, 35%);
 }
-.container .info-card > nav ul li:not(:last-child) {
+.container #profile-info > nav ul li:not(:last-child) {
   padding-bottom: 15px;
 }
-.container .info-card > nav ul ul > li.active {
+.container #profile-info > nav ul ul > li.active {
   font-weight: 500;
-}
-.container #profile-info {
-  grid-row-start: 1;
-  grid-row-end: 4;
-  background-color: yellow;
 }
 .container #work-card {
   background-color: purple;

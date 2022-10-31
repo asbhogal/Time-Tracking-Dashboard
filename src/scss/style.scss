@@ -14,7 +14,7 @@
     .info-card {
         border-radius: $border-radius;
         > .inner-card-container {
-            background: olive;
+            background-color: $dark-blue;
             position: relative;
             top: 20%;
             height: 80%;
@@ -27,6 +27,10 @@
                 padding: 10px 20px;
                 .fa-ellipsis {
                     cursor: pointer;
+                    color: $pale-blue;
+                    &:hover{
+                        color: $greyish-white;
+                    }
                 }
             }
         }
@@ -38,7 +42,7 @@
         > .profile-card-container {
             position: relative;
             height: 70%;
-            background: red;
+            background-color: $primary-blue;
             border-radius: $border-radius;
             .profile-info-section {
                 position: absolute;
@@ -67,7 +71,7 @@
         }
     }
     #work-card {
-        background-color: transparent;
+        background-color: $light-red-work;
         background-image: url('/images/icon-work.svg');
         background-repeat: no-repeat;
         grid-column-start: 2;
@@ -75,7 +79,7 @@
 
     }
     #play-card{
-        background-color: transparent;
+        background-color: $soft-blue-play;
         background-image: url('/images/icon-play.svg');
         background-repeat: no-repeat;
         background-position: 110px 0px;
@@ -83,7 +87,7 @@
         grid-column-end: 4;
     }
     #study-card{
-        background-color: transparent;
+        background-color: $light-red-study;
         background-image: url('/images/icon-study.svg');
         background-repeat: no-repeat;
         background-position: 110px 0px;
@@ -91,7 +95,7 @@
         grid-column-end: 5;
     }
     #exercise-card{
-        background-color: transparent;
+        background-color: $lime-green-exercise;
         background-image: url('/images/icon-exercise.svg');
         background-repeat: no-repeat;
         background-position: 110px 0px;
@@ -99,7 +103,7 @@
         grid-column-end: 3;
     }
     #social-card{
-        background-color: transparent;
+        background-color: $violet-social;
         background-image: url('/images/icon-social.svg');
         background-repeat: no-repeat;
         background-position: 110px 0px;
@@ -107,7 +111,7 @@
         grid-column-end: 4;
     }
     #self-care-card{
-        background-color: transparent;
+        background-color: $soft-orange-self-care;
         background-image: url('/images/icon-self-care.svg');
         background-repeat: no-repeat;
         background-position: 110px 0px;

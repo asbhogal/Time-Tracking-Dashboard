@@ -1,3 +1,8 @@
+/****** COLORS ******/
+/* PRIMARY */
+/* NEUTRAL */
+/****** STYLING ******/
+/****** TRANSITIONS ******/
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +17,7 @@ body {
   align-items: center;
   height: 100vh;
   padding: 0 50px;
+  background-color: #0f1424;
 }
 
 @media only screen and (max-width: 640px) {
@@ -20,7 +26,6 @@ body {
   }
   .container {
     display: grid;
-    grid-template-columns: auto !important;
     gap: 10px;
   }
   .container #profile-info .profile-card-list > ul {
@@ -68,10 +73,6 @@ body {
   font-weight: 500;
 }
 
-/****** COLORS ******/
-/* PRIMARY */
-/* NEUTRAL */
-/****** STYLING ******/
 .container {
   display: grid;
   height: 525px;
@@ -84,7 +85,7 @@ body {
   border-radius: 10px;
 }
 .container .info-card > .inner-card-container {
-  background: olive;
+  background-color: #1c1f4a;
   position: relative;
   top: 20%;
   height: 80%;
@@ -99,6 +100,10 @@ body {
 }
 .container .info-card > .inner-card-container .sub-category-banner .fa-ellipsis {
   cursor: pointer;
+  color: #bdc1ff;
+}
+.container .info-card > .inner-card-container .sub-category-banner .fa-ellipsis:hover {
+  color: #ededed;
 }
 .container #profile-info {
   grid-row-start: 1;
@@ -108,7 +113,7 @@ body {
 .container #profile-info > .profile-card-container {
   position: relative;
   height: 70%;
-  background: red;
+  background-color: #5847eb;
   border-radius: 10px;
 }
 .container #profile-info > .profile-card-container .profile-info-section {
@@ -136,14 +141,14 @@ body {
   font-weight: 500;
 }
 .container #work-card {
-  background-color: transparent;
+  background-color: #ff8c66;
   background-image: url("/icon-work.582f7e21.svg");
   background-repeat: no-repeat;
   grid-column-start: 2;
   grid-column-end: 3;
 }
 .container #play-card {
-  background-color: transparent;
+  background-color: #56c2e6;
   background-image: url("/icon-play.7c7a7313.svg");
   background-repeat: no-repeat;
   background-position: 110px 0px;
@@ -151,7 +156,7 @@ body {
   grid-column-end: 4;
 }
 .container #study-card {
-  background-color: transparent;
+  background-color: #ff5c7c;
   background-image: url("/icon-study.93717076.svg");
   background-repeat: no-repeat;
   background-position: 110px 0px;
@@ -159,7 +164,7 @@ body {
   grid-column-end: 5;
 }
 .container #exercise-card {
-  background-color: transparent;
+  background-color: #4acf81;
   background-image: url("/icon-exercise.a7b896b4.svg");
   background-repeat: no-repeat;
   background-position: 110px 0px;
@@ -167,7 +172,7 @@ body {
   grid-column-end: 3;
 }
 .container #social-card {
-  background-color: transparent;
+  background-color: #7536d3;
   background-image: url("/icon-social.3fa8f3c8.svg");
   background-repeat: no-repeat;
   background-position: 110px 0px;
@@ -175,7 +180,7 @@ body {
   grid-column-end: 4;
 }
 .container #self-care-card {
-  background-color: transparent;
+  background-color: #f1c65b;
   background-image: url("/icon-self-care.4cebb34f.svg");
   background-repeat: no-repeat;
   background-position: 110px 0px;

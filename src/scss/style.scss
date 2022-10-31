@@ -9,6 +9,7 @@
     height: 525px;
     width: 620px;
     grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
     .info-card {
         border-radius: $border-radius;

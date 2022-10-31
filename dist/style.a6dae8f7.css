@@ -14,16 +14,14 @@ body {
   padding: 0 50px;
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 640px) {
+  body {
+    padding: 0 15px;
+  }
   .container {
     display: grid;
     grid-template-columns: auto !important;
     gap: 10px;
-  }
-}
-@media only screen and (max-width: 520px) {
-  body {
-    padding: 0 15px;
   }
   .container #profile-info .profile-card-list > ul {
     display: grid;
@@ -48,6 +46,7 @@ body {
   height: 525px;
   width: 620px;
   grid-template-columns: auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 15px;
 }
 .container .info-card {

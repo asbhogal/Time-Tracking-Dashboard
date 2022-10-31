@@ -36,6 +36,34 @@ body {
     scale: 0.8;
   }
 }
+/****** RUBIK - 300 REGULAR ******/
+@font-face {
+  font-family: "Rubik";
+  font-weight: 300;
+  font-style: normal;
+  src: url("/Rubik-Light.a4b2c50e.woff") format("woff"), url("/Rubik-Light.acf2959d.woff2") format("woff2");
+  font-display: swap;
+}
+/****** RUBIK - 400 REGULAR ******/
+@font-face {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/Rubik-Regular.d8384832.woff") format("woff"), url("/Rubik-Regular.3e635f3a.woff2") format("woff2");
+  font-display: swap;
+}
+/****** RUBIK - 500 REGULAR ******/
+@font-face {
+  font-family: "Rubik";
+  font-weight: 500;
+  font-style: normal;
+  src: url("/Rubik-Medium.6af22582.woff") format("woff"), url("/Rubik-Medium.1a2d45f0.woff2") format("woff2");
+  font-display: swap;
+}
+* {
+  font-family: "Rubik", sans-serif;
+}
+
 /****** COLORS ******/
 /* PRIMARY */
 /* NEUTRAL */

@@ -172,7 +172,7 @@ module.exports = reloadCSS;
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"C:\\Users\\asbho\\OneDrive\\Documents\\Vanilla Coding\\Frontend Mentor Challenges\\Time Tracking Dashboard\\src\\fonts\\Rubik-Light.woff":[["Rubik-Light.a4b2c50e.woff","fonts/Rubik-Light.woff"],"fonts/Rubik-Light.woff"],"C:\\Users\\asbho\\OneDrive\\Documents\\Vanilla Coding\\Frontend Mentor Challenges\\Time Tracking Dashboard\\src\\fonts\\Rubik-Light.woff2":[["Rubik-Light.acf2959d.woff2","fonts/Rubik-Light.woff2"],"fonts/Rubik-Light.woff2"],"C:\\Users\\asbho\\OneDrive\\Documents\\Vanilla Coding\\Frontend Mentor Challenges\\Time Tracking Dashboard\\src\\fonts\\Rubik-Regular.woff":[["Rubik-Regular.d8384832.woff","fonts/Rubik-Regular.woff"],"fonts/Rubik-Regular.woff"],"C:\\Users\\asbho\\OneDrive\\Documents\\Vanilla Coding\\Frontend Mentor Challenges\\Time Tracking Dashboard\\src\\fonts\\Rubik-Regular.woff2":[["Rubik-Regular.3e635f3a.woff2","fonts/Rubik-Regular.woff2"],"fonts/Rubik-Regular.woff2"],"C:\\Users\\asbho\\OneDrive\\Documents\\Vanilla Coding\\Frontend Mentor Challenges\\Time Tracking Dashboard\\src\\fonts\\Rubik-Medium.woff":[["Rubik-Medium.6af22582.woff","fonts/Rubik-Medium.woff"],"fonts/Rubik-Medium.woff"],"C:\\Users\\asbho\\OneDrive\\Documents\\Vanilla Coding\\Frontend Mentor Challenges\\Time Tracking Dashboard\\src\\fonts\\Rubik-Medium.woff2":[["Rubik-Medium.1a2d45f0.woff2","fonts/Rubik-Medium.woff2"],"fonts/Rubik-Medium.woff2"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -197,7 +197,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52605" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54890" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

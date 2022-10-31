@@ -1,0 +1,36 @@
+/****** RUBIK - 300 REGULAR ******/
+
+@font-face {
+    font-family: 'Rubik';
+    font-weight: 300;
+    font-style: normal;
+    src:                url('/fonts/Rubik-Light.woff') format('woff'),
+                        url('/fonts/Rubik-Light.woff2') format('woff2');
+    font-display: swap;
+}
+
+/****** RUBIK - 400 REGULAR ******/
+
+@font-face {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-style: normal;
+    src:                url('/fonts/Rubik-Regular.woff') format('woff'),
+                        url('/fonts/Rubik-Regular.woff2') format('woff2');
+    font-display: swap;
+}
+
+/****** RUBIK - 500 REGULAR ******/
+
+@font-face {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-style: normal;
+    src:                url('/fonts/Rubik-Medium.woff') format('woff'),
+                        url('/fonts/Rubik-Medium.woff2') format('woff2');
+    font-display: swap;
+}
+
+* {
+    font-family: 'Rubik', sans-serif;
+}

@@ -3,3 +3,35 @@
 @use 'partials/responsive.scss' as *;
 @use 'partials/typography.scss' as *;
 @use 'partials/variables.scss' as *;
+
+.container {
+    display: grid;
+    background: red;
+    height: 360px;
+    width: 600px;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+    #profile-info {
+        grid-row-start: 1;
+        grid-row-end: 4;
+        background-color: yellow;
+    }
+    #work-card {
+        background-color: purple;
+    }
+    #play-card{
+        background-color: orange;
+    }
+    #study-card{
+        background-color: violet;
+    }
+    #exercise-card{
+        background-color: indigo;
+    }
+    #social-card{
+        background-color: grey;
+    }
+    #self-care-card{
+        background-color: chartreuse;
+    }
+}

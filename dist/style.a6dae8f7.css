@@ -1,5 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+*:is(*::after, *::before, *) {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 50px;
+}
+
+@media only screen and (max-width: 376px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto !important;
+  }
+}
 /****** COLORS ******/
 /* PRIMARY */
 /* NEUTRAL */
+.container {
+  display: grid;
+  background: red;
+  height: 360px;
+  width: 600px;
+  grid-template-columns: auto auto auto;
+  gap: 15px;
+}
+.container #profile-info {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  background-color: yellow;
+}
+.container #work-card {
+  background-color: purple;
+}
+.container #play-card {
+  background-color: orange;
+}
+.container #study-card {
+  background-color: violet;
+}
+.container #exercise-card {
+  background-color: indigo;
+}
+.container #social-card {
+  background-color: grey;
+}
+.container #self-care-card {
+  background-color: chartreuse;
+}
 
 /*# sourceMappingURL=/style.a6dae8f7.css.map */

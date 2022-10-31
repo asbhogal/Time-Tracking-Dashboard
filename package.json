@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/asbhogal/Time-Tracking-Dashboard/issues"
   },
-  "homepage": "https://github.com/asbhogal/Time-Tracking-Dashboard#readme"
+  "homepage": "https://github.com/asbhogal/Time-Tracking-Dashboard#readme",
+  "devDependencies": {
+    "sass": "^1.55.0"
+  }
 }

@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/asbhogal/Time-Tracking-Dashboard#readme",
   "devDependencies": {
-    "sass": "^1.55.0"
+    "sass": "^1.55.0",
+    "terser": "^5.15.1"
+  },
+  "resolutions": {
+    "node-forge": "0.10.0"
   }
 }

@@ -40,6 +40,13 @@ body {
 .container .info-card {
   border-radius: 10px;
 }
+.container .info-card > .inner-card-container {
+  background: olive;
+  position: relative;
+  top: 20%;
+  height: 80%;
+  border-radius: 10px;
+}
 .container #profile-info {
   grid-row-start: 1;
   grid-row-end: 4;

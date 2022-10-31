@@ -12,6 +12,13 @@
     gap: 15px;
     .info-card {
         border-radius: $border-radius;
+        > .inner-card-container {
+            background: olive;
+            position: relative;
+            top: 20%;
+            height: 80%;
+            border-radius: 10px;
+        }
     }
     #profile-info {
         grid-row-start: 1;

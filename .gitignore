@@ -1,0 +1,11 @@
+## NPM MODULES ##
+
+node_modules
+
+## PARCEL TEMP FILES ##
+
+.cache
+
+## NOTES ##
+
+notes.txt

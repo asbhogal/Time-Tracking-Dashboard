@@ -17,7 +17,24 @@
             position: relative;
             top: 20%;
             height: 80%;
-            border-radius: 10px;
+            border-radius: $border-radius;
+        }
+        > .profile-card-container {
+            position: relative;
+            height: 70%;
+            background: red;
+            border-radius: $border-radius;
+        }
+        > nav ul {
+            list-style-type: none;
+            position: absolute;
+            transform: translate(30px, 35%);
+            li:not(:last-child) {
+                padding-bottom: 15px;
+            }
+            ul > li.active {
+                font-weight: 500;
+            }
         }
     }
     #profile-info {

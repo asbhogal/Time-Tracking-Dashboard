@@ -25,6 +25,10 @@ body {
   body {
     padding: 0 15px;
   }
+  .container #profile-info > ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 /****** COLORS ******/
 /* PRIMARY */
@@ -46,6 +50,23 @@ body {
   top: 20%;
   height: 80%;
   border-radius: 10px;
+}
+.container .info-card > .profile-card-container {
+  position: relative;
+  height: 70%;
+  background: red;
+  border-radius: 10px;
+}
+.container .info-card > nav ul {
+  list-style-type: none;
+  position: absolute;
+  transform: translate(30px, 35%);
+}
+.container .info-card > nav ul li:not(:last-child) {
+  padding-bottom: 15px;
+}
+.container .info-card > nav ul ul > li.active {
+  font-weight: 500;
 }
 .container #profile-info {
   grid-row-start: 1;

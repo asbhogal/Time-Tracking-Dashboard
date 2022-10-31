@@ -7,10 +7,10 @@
 .container {
     display: grid;
     height: 525px;
-    width: 620px;
+    width: 920px;
     grid-template-columns: auto auto auto;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px; 
     .info-card {
         border-radius: $border-radius;
         > .inner-card-container {
@@ -25,12 +25,15 @@
                 justify-content: space-between;
                 width: 100%;
                 padding: 10px 20px;
+                .fa-ellipsis {
+                    cursor: pointer;
+                }
             }
         }
     }
     #profile-info {
         grid-row-start: 1;
-        grid-row-end: 4;
+        grid-row-end: 3;
         background-color: yellow;
         > .profile-card-container {
             position: relative;
@@ -64,21 +67,51 @@
         }
     }
     #work-card {
-        background-color: purple;
+        background-color: transparent;
+        background-image: url('/images/icon-work.svg');
+        background-repeat: no-repeat;
+        grid-column-start: 2;
+        grid-column-end: 3;
+
     }
     #play-card{
-        background-color: orange;
+        background-color: transparent;
+        background-image: url('/images/icon-play.svg');
+        background-repeat: no-repeat;
+        background-position: 110px 0px;
+        grid-column-start: 3;
+        grid-column-end: 4;
     }
     #study-card{
-        background-color: violet;
+        background-color: transparent;
+        background-image: url('/images/icon-study.svg');
+        background-repeat: no-repeat;
+        background-position: 110px 0px;
+        grid-column-start: 4;
+        grid-column-end: 5;
     }
     #exercise-card{
-        background-color: indigo;
+        background-color: transparent;
+        background-image: url('/images/icon-exercise.svg');
+        background-repeat: no-repeat;
+        background-position: 110px 0px;
+        grid-column-start: 2;
+        grid-column-end: 3;
     }
     #social-card{
-        background-color: grey;
+        background-color: transparent;
+        background-image: url('/images/icon-social.svg');
+        background-repeat: no-repeat;
+        background-position: 110px 0px;
+        grid-column-start: 3;
+        grid-column-end: 4;
     }
     #self-care-card{
-        background-color: chartreuse;
+        background-color: transparent;
+        background-image: url('/images/icon-self-care.svg');
+        background-repeat: no-repeat;
+        background-position: 110px 0px;
+        grid-column-start: 4;
+        grid-column-end: 5;
     }
 }

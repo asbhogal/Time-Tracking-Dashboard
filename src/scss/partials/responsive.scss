@@ -10,9 +10,10 @@
     body {
         padding: 0 15px;
     }
-    .container #profile-info > ul {
-        display: flex;
-        justify-content: space-evenly;
+    .container #profile-info .profile-card-list > ul {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 100%;
     }
 }
 

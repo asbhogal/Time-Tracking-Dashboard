@@ -20,25 +20,32 @@ body {
   background-color: #0f1424;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 825px) {
   body {
     padding: 0 15px;
   }
   .container {
     display: grid;
-    gap: 10px;
+    height: 525px;
+    width: 920px;
+    gap: 15px;
+    grid-template-columns: none !important;
   }
-  .container #profile-info .profile-card-list > ul {
-    display: grid;
-    grid-template-columns: auto auto auto;
+  .container section {
+    grid-column-start: 1 !important;
+    grid-column-end: 3 !important;
   }
-  .profile-info-section {
+  .container .profile-info-section {
     display: grid;
     grid-template-columns: auto auto auto;
     width: 100%;
   }
-  .profile-info-section .profile-photo {
+  .container .profile-info-section .profile-photo {
     scale: 0.8;
+  }
+  .container #profile-info .profile-card-list > ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
   }
 }
 /****** RUBIK - 300 REGULAR ******/

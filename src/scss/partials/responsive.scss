@@ -1,23 +1,29 @@
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 825px) {
     body {
         padding: 0 15px;
     }
     .container {
         display: grid;
-        //grid-template-columns: auto !important;
-        gap: 10px;
+        height: 525px;
+        width: 920px;
+        gap: 15px;
+        grid-template-columns: none !important;
+        section {
+            grid-column-start: 1 !important;
+            grid-column-end: 3 !important;
+        }
+        .profile-info-section {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            width: 100%;
+            .profile-photo {
+                scale: 0.8;
+            }
+        }
     }
     .container #profile-info .profile-card-list > ul {
         display: grid;
         grid-template-columns: auto auto auto;
-    }
-    .profile-info-section {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        width: 100%;
-        .profile-photo {
-            scale: 0.8;
-        }
     }
 }
 

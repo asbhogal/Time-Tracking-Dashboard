@@ -90,6 +90,18 @@ body {
   top: 20%;
   height: 80%;
   border-radius: 10px;
+  transition: all 0.3 ease-in;
+  -webkit-transition: all 0.3 ease-in;
+  -o-transition: all 0.3 ease-in;
+  -moz-transition: all 0.3 ease-in;
+}
+.container .info-card > .inner-card-container:hover {
+  background-color: #5847eb;
+  cursor: pointer;
+  transition: all 0.3 ease-in;
+  -webkit-transition: all 0.3 ease-in;
+  -o-transition: all 0.3 ease-in;
+  -moz-transition: all 0.3 ease-in;
 }
 .container .info-card > .inner-card-container .sub-category-banner {
   display: flex;
@@ -108,7 +120,7 @@ body {
 .container #profile-info {
   grid-row-start: 1;
   grid-row-end: 3;
-  background-color: yellow;
+  background-color: #1c1f4a;
 }
 .container #profile-info > .profile-card-container {
   position: relative;
@@ -126,7 +138,7 @@ body {
   padding-left: 30px;
 }
 .container #profile-info > .profile-card-container .profile-info-section .profile-photo {
-  border: 3px solid #000;
+  border: 3px solid #ededed;
   border-radius: 50%;
 }
 .container #profile-info > nav ul {

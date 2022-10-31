@@ -19,6 +19,12 @@
             top: 20%;
             height: 80%;
             border-radius: $border-radius;
+            @include cross-browser-support-set-transition;
+            &:hover {
+                background-color: $primary-blue;
+                cursor: pointer;
+                @include cross-browser-support-set-transition;
+            }
             .sub-category-banner {
                 display: flex;
                 position: absolute;
@@ -38,7 +44,7 @@
     #profile-info {
         grid-row-start: 1;
         grid-row-end: 3;
-        background-color: yellow;
+        background-color: $dark-blue;
         > .profile-card-container {
             position: relative;
             height: 70%;
@@ -53,7 +59,7 @@
                 height: 100%;
                 padding-left: 30px;
                 .profile-photo {
-                    border: 3px solid #000;
+                    border: 3px solid $greyish-white;
                     border-radius: 50%;
                 }
             }

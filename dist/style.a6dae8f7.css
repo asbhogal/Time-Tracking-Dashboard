@@ -58,6 +58,13 @@ body {
   height: 80%;
   border-radius: 10px;
 }
+.container .info-card > .inner-card-container .sub-category-banner {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 20px;
+}
 .container #profile-info {
   grid-row-start: 1;
   grid-row-end: 4;

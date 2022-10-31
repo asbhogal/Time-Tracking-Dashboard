@@ -25,6 +25,13 @@
                 cursor: pointer;
                 @include cross-browser-support-set-transition;
             }
+            .card-summaries {
+                padding-left: 20px;
+                .total-week-hours {
+                    font-size: 38px;
+                    font-weight: 400;
+                }
+            }
             .sub-category-banner {
                 display: flex;
                 //position: absolute;
@@ -71,8 +78,12 @@
             li:not(:last-child) {
                 padding-bottom: 15px;
             }
-            ul > li.active {
+            > li.active {
                 font-weight: 500;
+                color: $greyish-white;
+            }
+            li:not(.active) {
+                color: $pale-blue;
             }
         }
     }

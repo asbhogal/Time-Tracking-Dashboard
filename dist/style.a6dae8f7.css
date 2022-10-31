@@ -110,6 +110,13 @@ body {
   -o-transition: all 0.3 ease-in;
   -moz-transition: all 0.3 ease-in;
 }
+.container .info-card > .inner-card-container .card-summaries {
+  padding-left: 20px;
+}
+.container .info-card > .inner-card-container .card-summaries .total-week-hours {
+  font-size: 38px;
+  font-weight: 400;
+}
 .container .info-card > .inner-card-container .sub-category-banner {
   display: flex;
   justify-content: space-between;
@@ -154,8 +161,12 @@ body {
 .container #profile-info > nav ul li:not(:last-child) {
   padding-bottom: 15px;
 }
-.container #profile-info > nav ul ul > li.active {
+.container #profile-info > nav ul > li.active {
   font-weight: 500;
+  color: #ededed;
+}
+.container #profile-info > nav ul li:not(.active) {
+  color: #bdc1ff;
 }
 .container #work-card {
   background-color: #ff8c66;

@@ -1,8 +1,8 @@
 {
   "name": "time-tracking-dashboard",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A time tracking dashboard created as for a Frontend Mentor challenge, coded using vanilla HTML5, CSS3 (SCSS) and JS.",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/asbhogal/Time-Tracking-Dashboard.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Aman Singh Bhogal",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/asbhogal/Time-Tracking-Dashboard/issues"

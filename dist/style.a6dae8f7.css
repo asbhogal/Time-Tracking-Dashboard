@@ -63,6 +63,18 @@ body {
   .info-card {
     padding-top: 15px;
   }
+  .profile-card-container {
+    padding: 65px 0 !important;
+    transform: translateY(-50%) !important;
+  }
+  /*#profile-info {
+      top: 0 !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: space-around !important;
+      padding: 0 !important;
+      padding: 55px 0 !important;
+  }*/
 }
 /****** RUBIK - 300 REGULAR ******/
 @font-face {

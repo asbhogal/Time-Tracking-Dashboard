@@ -22,7 +22,7 @@ body {
 
 @media only screen and (max-width: 825px) {
   body {
-    padding: 0 15px;
+    padding: 0 15px !important;
   }
   .container {
     display: grid;
@@ -30,22 +30,27 @@ body {
     width: 920px;
     gap: 15px;
     grid-template-columns: none !important;
+    /*.profile-info-section {
+        display: grid !important;
+        grid-template-columns: auto auto auto !important;
+        width: 100% !important;
+        .profile-photo {
+            scale: 0.8 !important;
+        }
+    }*/
   }
   .container section {
     grid-column-start: 1 !important;
     grid-column-end: 3 !important;
   }
-  .container .profile-info-section {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    width: 100%;
-  }
-  .container .profile-info-section .profile-photo {
-    scale: 0.8;
-  }
   .container #profile-info .profile-card-list > ul {
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: grid !important;
+    grid-template-columns: auto auto auto !important;
+  }
+  .card-summaries {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 /****** RUBIK - 300 REGULAR ******/

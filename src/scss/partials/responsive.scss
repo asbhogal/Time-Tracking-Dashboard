@@ -77,6 +77,9 @@
 }
 
 @media only screen and (min-width: 826px) {
+    .container {
+        height: 475px;
+    }
     .card-summaries {
         display: flex;
         flex-direction: column;
@@ -85,5 +88,8 @@
         /* margin-bottom: 20px; */
         bottom: 10px;
         position: relative;
+    }
+    .info-card:not(:first-child) {
+        height: 200px;
     }
 }

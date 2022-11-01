@@ -91,6 +91,9 @@ body {
   }
 }
 @media only screen and (min-width: 826px) {
+  .container {
+    height: 475px;
+  }
   .card-summaries {
     display: flex;
     flex-direction: column;
@@ -99,6 +102,9 @@ body {
     /* margin-bottom: 20px; */
     bottom: 10px;
     position: relative;
+  }
+  .info-card:not(:first-child) {
+    height: 200px;
   }
 }
 /****** RUBIK - 300 REGULAR ******/
@@ -135,7 +141,6 @@ body {
 
 .container {
   display: grid;
-  height: 525px;
   width: 920px;
   grid-template-columns: auto auto auto;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -193,7 +198,7 @@ body {
 }
 .container #profile-info > .profile-card-container {
   position: relative;
-  height: 70%;
+  height: 65%;
   background-color: #5847eb;
   border-radius: 10px;
 }

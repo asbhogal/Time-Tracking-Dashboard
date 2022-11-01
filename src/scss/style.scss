@@ -6,7 +6,6 @@
 
 .container {
     display: grid;
-    height: 525px;
     width: 920px;
     grid-template-columns: auto auto auto;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -58,7 +57,7 @@
         background-color: $dark-blue;
         > .profile-card-container {
             position: relative;
-            height: 70%;
+            height: 65%;
             background-color: $primary-blue;
             border-radius: $border-radius;
             .profile-info-section {

@@ -92,7 +92,7 @@ body {
 }
 @media only screen and (min-width: 826px) {
   .container {
-    height: 475px;
+    height: 465px;
   }
   .card-summaries {
     display: flex;
@@ -104,7 +104,7 @@ body {
     position: relative;
   }
   .info-card:not(:first-child) {
-    height: 200px;
+    height: 225px;
   }
 }
 /****** RUBIK - 300 REGULAR ******/

@@ -38,6 +38,10 @@
                 justify-content: space-between;
                 //width: 100%;
                 padding: 10px 20px;
+                .sub-category-name {
+                    font-weight: 500;
+                    color: $greyish-white;
+                }
                 .fa-ellipsis {
                     cursor: pointer;
                     color: $pale-blue;

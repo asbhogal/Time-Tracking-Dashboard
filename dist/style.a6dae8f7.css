@@ -90,6 +90,17 @@ body {
     transform: translate(40px, 50%) !important;
   }
 }
+@media only screen and (min-width: 826px) {
+  .card-summaries {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    /* margin-bottom: 20px; */
+    bottom: 10px;
+    position: relative;
+  }
+}
 /****** RUBIK - 300 REGULAR ******/
 @font-face {
   font-family: "Rubik";
@@ -163,6 +174,10 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 10px 20px;
+}
+.container .info-card > .inner-card-container .sub-category-banner .sub-category-name {
+  font-weight: 500;
+  color: #ededed;
 }
 .container .info-card > .inner-card-container .sub-category-banner .fa-ellipsis {
   cursor: pointer;

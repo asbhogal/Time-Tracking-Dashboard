@@ -22,10 +22,10 @@
         }*/
     }
 
-    .container #profile-info .profile-card-list > ul {
+    /*.container #profile-info .profile-card-list > ul {
         display: grid !important;
         grid-template-columns: auto auto auto !important;
-    }
+    }*/
 
     .card-summaries {
         display: flex;
@@ -51,13 +51,28 @@
         transform: translateY(-50%) !important;
     }
 
-    /*#profile-info {
+    .profile-info-section {
         top: 0 !important;
         display: flex !important;
         align-items: center !important;
         justify-content: space-around !important;
         padding: 0 !important;
         padding: 55px 0 !important;
-    }*/
+        top: 0;
+        padding-right: 30px;
+    }
+
+    .profile-card-list {
+        position: relative;
+        bottom: 40%;
+        ul {
+            display: flex;
+        }
+    }
+
+    .container #profile-info > nav ul {
+        display: flex;
+        transform: translate(40px, 50%) !important;
+    }
 }
 

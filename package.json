@@ -2,7 +2,6 @@
   "name": "time-tracking-dashboard",
   "version": "1.0.0",
   "description": "A time tracking dashboard created as for a Frontend Mentor challenge, coded using vanilla HTML5, CSS3 (SCSS) and JS.",
-  "main": "index.html",
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html"
@@ -19,7 +18,8 @@
   },
   "homepage": "https://github.com/asbhogal/Time-Tracking-Dashboard#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.5",
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.0.0",
     "sass": "^1.55.0",
     "terser": "^5.15.1"
   },

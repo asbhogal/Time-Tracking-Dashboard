@@ -533,7 +533,20 @@ function hmrAcceptRun(bundle, id) {
 
 },{}],"dV6cC":[function(require,module,exports) {
 var _dataJson = require("./data.json");
+// set up loops to walk through values and return each to respective DOM element
 console.log(_dataJson);
+console.log(_dataJson[0]);
+// document.body.innerHTML = JSON.stringify(dashboardData);
+/* DATA TO EXTRAPOLATE IN EACH OBJECT:
+
+    [0]
+    []
+
+    [0]
+    [1]
+*/ /* for (let individualData in dashboardData) {
+    console.log(individualData);
+} */ for(let i = 0; i < _dataJson.length; i++)console.log(_dataJson[i]);
 const returnDashboardData = ""; /*fetch(`${dashboardData}`, {
 
     method: "GET",

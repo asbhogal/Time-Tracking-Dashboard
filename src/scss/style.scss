@@ -15,8 +15,8 @@
         > .inner-card-container {
             background-color: $dark-blue;
             position: relative;
-            top: 20%;
-            height: 80%;
+            top: 15%;
+            height: 85%;
             border-radius: $border-radius;
             @include cross-browser-support-set-transition;
             &:hover {
@@ -62,7 +62,10 @@
             border-radius: $border-radius;
             .profile-info-section {
                 position: absolute;
-                display: grid;
+                // display: grid;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
                 grid-template-rows: 85px auto 15px;
                 width: 100%;
                 align-content: space-evenly;
@@ -71,6 +74,7 @@
                 .profile-photo {
                     border: 3px solid $greyish-white;
                     border-radius: 50%;
+                    // scale: 0.7;
                 }
             }
         }

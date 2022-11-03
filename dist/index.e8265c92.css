@@ -79,7 +79,7 @@ body {
     width: 80%;
     justify-content: space-around;
     display: flex;
-    transform: translate(40px, 50%) !important;
+    transform: translate(12%, 35%) !important;
   }
 }
 

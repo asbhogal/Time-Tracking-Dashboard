@@ -1,5 +1,4 @@
 * {
-  outline: 2px solid red;
   margin: 0;
   padding: 0;
 }
@@ -128,6 +127,7 @@ body {
 }
 
 * {
+  color: #ededed;
   font-family: Rubik, sans-serif;
 }
 

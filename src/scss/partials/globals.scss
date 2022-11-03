@@ -6,7 +6,7 @@
     &:is(&::after, &::before, *) {
         box-sizing: border-box;
     }
-    outline: 2px solid red;
+    // outline: 2px solid red;
 }
 
 body {

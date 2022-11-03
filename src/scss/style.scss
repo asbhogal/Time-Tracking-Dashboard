@@ -92,7 +92,7 @@
     }
     #work-card {
         background-color: $light-red-work;
-        background-image: url('/images/icon-work.svg');
+        background-image: url('../images/icon-work.svg');
         background-repeat: no-repeat;
         background-position-x: 90%;
         grid-column-start: 2;
@@ -101,7 +101,7 @@
     }
     #play-card{
         background-color: $soft-blue-play;
-        background-image: url('/images/icon-play.svg');
+        background-image: url('../images/icon-play.svg');
         background-repeat: no-repeat;
         background-position-x: 90%;
         grid-column-start: 3;
@@ -109,7 +109,7 @@
     }
     #study-card{
         background-color: $light-red-study;
-        background-image: url('/images/icon-study.svg');
+        background-image: url('../images/icon-study.svg');
         background-repeat: no-repeat;
         background-position-x: 90%;
         grid-column-start: 4;
@@ -117,7 +117,7 @@
     }
     #exercise-card{
         background-color: $lime-green-exercise;
-        background-image: url('/images/icon-exercise.svg');
+        background-image: url('../images/icon-exercise.svg');
         background-repeat: no-repeat;
         background-position-x: 90%;
         grid-column-start: 2;
@@ -125,7 +125,7 @@
     }
     #social-card{
         background-color: $violet-social;
-        background-image: url('/images/icon-social.svg');
+        background-image: url('../images/icon-social.svg');
         background-repeat: no-repeat;
         background-position-x: 90%;
         grid-column-start: 3;
@@ -133,7 +133,7 @@
     }
     #self-care-card{
         background-color: $soft-orange-self-care;
-        background-image: url('/images/icon-self-care.svg');
+        background-image: url('../images/icon-self-care.svg');
         background-repeat: no-repeat;
         background-position-x: 90%;
         grid-column-start: 4;

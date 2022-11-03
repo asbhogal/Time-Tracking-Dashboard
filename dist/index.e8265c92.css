@@ -173,7 +173,7 @@ h1 #profile-name {
 }
 
 .container .info-card > .inner-card-container {
-  height: 85%;
+  height: 83%;
   transition: all .3 ease-in;
   -webkit-transition: all .3 ease-in;
   -o-transition: all .3 ease-in;
@@ -181,7 +181,7 @@ h1 #profile-name {
   background-color: #1c1f4a;
   border-radius: 10px;
   position: relative;
-  top: 15%;
+  top: 17%;
 }
 
 .container .info-card > .inner-card-container:hover {
@@ -272,7 +272,7 @@ h1 #profile-name {
 .container #work-card {
   background-color: #ff8c66;
   background-image: url("icon-work.e1b1a15f.svg");
-  background-position-x: 90%;
+  background-position: 90% -15%;
   background-repeat: no-repeat;
   grid-column: 2 / 3;
 }
@@ -280,7 +280,7 @@ h1 #profile-name {
 .container #play-card {
   background-color: #56c2e6;
   background-image: url("icon-play.506c7a6b.svg");
-  background-position-x: 90%;
+  background-position: 90% -15%;
   background-repeat: no-repeat;
   grid-column: 3 / 4;
 }
@@ -288,7 +288,7 @@ h1 #profile-name {
 .container #study-card {
   background-color: #ff5c7c;
   background-image: url("icon-study.791bacc8.svg");
-  background-position-x: 90%;
+  background-position: 90% -15%;
   background-repeat: no-repeat;
   grid-column: 4 / 5;
 }
@@ -304,7 +304,7 @@ h1 #profile-name {
 .container #social-card {
   background-color: #7536d3;
   background-image: url("icon-social.32bc7c0a.svg");
-  background-position-x: 90%;
+  background-position: 90% -4%;
   background-repeat: no-repeat;
   grid-column: 3 / 4;
 }
@@ -312,7 +312,7 @@ h1 #profile-name {
 .container #self-care-card {
   background-color: #f1c65b;
   background-image: url("icon-self-care.c25cfdb9.svg");
-  background-position-x: 90%;
+  background-position: 90% -15%;
   background-repeat: no-repeat;
   grid-column: 4 / 5;
 }

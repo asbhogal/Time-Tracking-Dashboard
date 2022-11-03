@@ -71,10 +71,14 @@
     }
 
     .container #profile-info > nav ul {
-        display: flex;
-        transform: translate(12%, 35%) !important;
+        width: 100%;
         justify-content: space-around;
-        width: 80%;
+        /* display: flex; */
+        /* transform: translate(12%, 35%) !important; */
+        /* transform: translateX(1%) !important; */
+        /* margin: 0 auto; */
+        /* position: absolute; */
+        left: -8%;
     }
 }
 

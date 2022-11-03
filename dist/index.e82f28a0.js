@@ -533,17 +533,14 @@ function hmrAcceptRun(bundle, id) {
 
 },{}],"dV6cC":[function(require,module,exports) {
 var _dataJson = require("./data.json");
+const wordCardSection = document.getElementById("word-card"), playCardSection = document.getElementById("play-card"), studyCardSection = document.getElementById("study-card"), exerciseCardSection = document.getElementById("exercise-card"), socialCardSection = document.getElementById("social-card"), selfCareCardSection = document.getElementById("self-care-card");
 // set up loops to walk through values and return each to respective DOM element
+// use if to check if DOm element matches ID, then insert data
 console.log(_dataJson);
 console.log(_dataJson[0]);
 // document.body.innerHTML = JSON.stringify(dashboardData);
 /* DATA TO EXTRAPOLATE IN EACH OBJECT:
 
-    [0]
-    []
-
-    [0]
-    [1]
 */ /* for (let individualData in dashboardData) {
     console.log(individualData);
 } */ for(let i = 0; i < _dataJson.length; i++)console.log(_dataJson[i]);

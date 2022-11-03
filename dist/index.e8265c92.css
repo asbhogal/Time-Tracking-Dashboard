@@ -77,6 +77,8 @@ body {
   }
 
   .container #profile-info > nav ul {
+    width: 80%;
+    justify-content: space-around;
     display: flex;
     transform: translate(40px, 50%) !important;
   }

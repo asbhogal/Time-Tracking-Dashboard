@@ -73,6 +73,8 @@
     .container #profile-info > nav ul {
         display: flex;
         transform: translate(40px, 50%) !important;
+        justify-content: space-around;
+        width: 80%;
     }
 }
 

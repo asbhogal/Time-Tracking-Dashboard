@@ -24,10 +24,9 @@ console.log(dashboardData[0]);
 } */
 
 for (let i = 0; i < dashboardData.length; i++) {
+
     console.log(dashboardData[i]);
-    /*for (let j = 0; j < dashboardData.length; i++) {
-        console.log(dashboardData[j]);
-    }*/
+
 }
 
 const returnDashboardData = "";
@@ -49,3 +48,6 @@ const returnDashboardData = "";
     console.log(error);
 
 });*/
+
+
+/* TOGGLE BETWEEN DAILY, WEEKLY AND MONTHLY */

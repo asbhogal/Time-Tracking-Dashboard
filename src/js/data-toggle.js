@@ -7,8 +7,10 @@ const   btnToggleDaily = document.getElementById('toggle-daily'),
 /****** SET DEFAULT ON WINDOW LOAD ******/
 
 window.addEventListener('load', function(e) {
+
     btnToggleWeekly.classList.add('active');
-})
+
+});
 
 /****** TOGGLE DAILY DATA ******/
 

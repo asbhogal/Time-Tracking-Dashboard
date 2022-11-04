@@ -543,10 +543,36 @@ const wordCardSection = document.getElementById("word-card"), playCardSection = 
 
 */ for(let individualData in _dataJson){
     // console.log(dashboardData[individualData].timeframes);
-    const { daily , monthly , weekly  } = _dataJson[individualData].timeframes;
-    console.log(daily, weekly, monthly);
-    console.log(daily[0]);
-} /*for (let i = 0; i < dashboardData.length; i++) {
+    const { daily , weekly , monthly  } = _dataJson[individualData].timeframes;
+    //console.log(daily);
+    console.log(daily.current);
+} /*dashboardData.forEach(Object => {
+    // console.log(Object);
+    if (Object.title === 'Work') {
+
+        console.log(Object.timeframes);
+        let { daily, weekly, monthly } = Object.timeframes;
+        //console.log(daily, weekly, monthly);
+
+    } else if (Object.title === 'Play') {
+
+        let { daily, weekly, monthly } = Object.timeframes;
+
+        //console.log(Object.timeframes);
+    } else if (Object.title === 'Study') {
+
+
+        //console.log(Object.timeframes);
+    } else if (Object.title === 'Exercise') {
+
+
+        //console.log(Object.timeframes);
+    } else if (Object.title === 'Social') {
+
+
+        //console.log(Object.timeframes);
+    } // else console.log(Object.timeframes);
+});*/  /*for (let i = 0; i < dashboardData.length; i++) {
 
     console.log(dashboardData[i]);
 

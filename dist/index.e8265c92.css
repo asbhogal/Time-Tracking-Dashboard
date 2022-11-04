@@ -256,6 +256,22 @@ h1 #profile-name {
   transform: translate(30px, 35%);
 }
 
+.container #profile-info > nav ul li {
+  cursor: pointer;
+  transition: all .3 ease-in;
+  -webkit-transition: all .3 ease-in;
+  -o-transition: all .3 ease-in;
+  -moz-transition: all .3 ease-in;
+}
+
+.container #profile-info > nav ul li:hover {
+  transition: all .3 ease-in;
+  -webkit-transition: all .3 ease-in;
+  -o-transition: all .3 ease-in;
+  -moz-transition: all .3 ease-in;
+  color: #ededed !important;
+}
+
 .container #profile-info > nav ul li:not(:last-child) {
   padding-bottom: 15px;
 }

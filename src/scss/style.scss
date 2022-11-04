@@ -82,6 +82,14 @@
             list-style-type: none;
             position: absolute;
             transform: translate(30px, 35%);
+            li {
+                cursor: pointer;
+                @include cross-browser-support-set-transition;
+                &:hover {
+                    color: $greyish-white !important;
+                    @include cross-browser-support-set-transition;
+                }
+            }
             li:not(:last-child) {
                 padding-bottom: 15px;
             }

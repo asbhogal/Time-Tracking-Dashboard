@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <!-- MAIN SCRIPT -->
     <script src="/index.e82f28a0.js" defer=""></script>
+    <script src="/index.c5dfee90.js" defer=""></script>
 </head>
 <body>
     <div class="container">
@@ -30,9 +31,9 @@
             </div>
             <nav class="profile-card-list">
                 <ul>
-                    <li>Daily</li>
-                    <li class="active">Weekly</li>
-                    <li>Monthly</li>
+                    <li id="toggle-daily">Daily</li>
+                    <li id="toggle-weekly" class="active">Weekly</li>
+                    <li id="toggle-monthly">Monthly</li>
                 </ul>
             </nav>
         </section>
@@ -43,8 +44,8 @@
                     <i class="fa-solid fa-ellipsis"></i>
                 </div>
                 <div class="card-summaries">
-                    <h3 class="total-week-hours">32hrs</h3>
-                    <p class="summary-hours">Last Week - <span id="week-hours">36 hrs</span></p>
+                    <h3 id="work-week-hours" class="total-week-hours">32hrs</h3>
+                    <p class="summary-hours">Last Week - <span id="work-last-week-hours">36 hrs</span></p>
                 </div>
             </div>
         </section>

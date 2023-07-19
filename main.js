@@ -63,4 +63,6 @@ btnToggleMonthly.addEventListener("click", () => {
   }
 });
 
-window.addEventListener("load", loadDailyData);
+document.addEventListener("DOMContentLoaded", function () {
+  loadDailyData();
+});

@@ -29,27 +29,27 @@ function updateCardValues(tab) {
   });
 }
 
-function loadDailyData() {
-  btnToggleDaily.classList.add("active");
-  btnToggleWeekly.classList.remove("active");
+function loadWeeklyData() {
+  btnToggleDaily.classList.remove("active");
+  btnToggleWeekly.classList.add("active");
   btnToggleMonthly.classList.remove("active");
 
-  updateCardValues("daily");
+  updateCardValues("weekly");
 }
 
 btnToggleDaily.addEventListener("click", () => {
   if (!btnToggleDaily.classList.contains("active")) {
-    loadDailyData();
+    btnToggleMonthly.classList.remove("active");
+    btnToggleDaily.classList.add("active");
+    btnToggleWeekly.classList.remove("active");
+
+    updateCardValues("daily");
   }
 });
 
 btnToggleWeekly.addEventListener("click", () => {
   if (!btnToggleWeekly.classList.contains("active")) {
-    btnToggleWeekly.classList.add("active");
-    btnToggleDaily.classList.remove("active");
-    btnToggleMonthly.classList.remove("active");
-
-    updateCardValues("weekly");
+    loadWeeklyData();
   }
 });
 
@@ -64,5 +64,5 @@ btnToggleMonthly.addEventListener("click", () => {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  loadDailyData();
+  loadWeeklyData();
 });

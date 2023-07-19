@@ -1,19 +1,19 @@
-@use 'variables' as *;
+@use "variables" as *;
 
 * {
-    margin: 0;
-    padding: 0;
-    &:is(&::after, &::before, *) {
-        box-sizing: border-box;
-    }
-    // outline: 2px solid red;
+  margin: 0;
+  padding: 0;
+  &:is(&::after, &::before, *) {
+    box-sizing: border-box;
+  }
+  // outline: .125rem solid red;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    padding: 0 50px;
-    background-color: $very-dark-blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 3.125rem;
+  background-color: $very-dark-blue;
 }

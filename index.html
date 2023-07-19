@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SITE FAVICON -->
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+      sizes="32x32"
+    />
+    <!-- SITE TITLE -->
+    <title>Time Tracking Dashboard</title>
+    <!-- SITE DESCRIPTION -->
+    <meta
+      name="description"
+      content="A time tracking dashboard created for the Frontend Mentor challenge."
+    />
+    <!-- SITE AUTHORS -->
+    <meta name="author" content="Aman Singh Bhogal & Frontend Mentor" />
+    <!-- FONT AWESOME STYLESHEET -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- MAIN SCRIPT -->
+    <script type="module" src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- PROFILE INFO SECTION -->
+      <section id="profile-info" class="info-card">
+        <div class="profile-card-container">
+          <div class="profile-info-section">
+            <img
+              class="profile-photo"
+              src="images/image-jeremy.png"
+              width="70px"
+              height="70px"
+              alt="A young black man smiling at the camera with a colored top."
+            />
+            <h1>
+              <span id="report-title">Report for</span
+              ><span id="profile-name">Jeremy Robson</span>
+            </h1>
+          </div>
+        </div>
+
+        <!-- PROFILE CARD MENU -->
+        <nav class="profile-card-list">
+          <ul>
+            <li id="toggle-daily">Daily</li>
+            <li id="toggle-weekly">Weekly</li>
+            <li id="toggle-monthly">Monthly</li>
+          </ul>
+        </nav>
+      </section>
+
+      <!-- WORK SECTION -->
+      <section id="work-card" class="info-card">
+        <div class="inner-card-container">
+          <div class="sub-category-banner">
+            <p class="sub-category-name">Work</p>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <div class="card-summaries">
+            <h3 id="work-latest-week-hours" class="total-week-hours"></h3>
+            <p class="summary-hours">
+              Last Week - <span id="work-last-week-hours"></span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- PLAY SECTION -->
+      <section id="play-card" class="info-card">
+        <div class="inner-card-container">
+          <div class="sub-category-banner">
+            <p class="sub-category-name">Play</p>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <div class="card-summaries">
+            <h3 id="play-latest-week-hours" class="total-week-hours"></h3>
+            <p class="summary-hours">
+              Last Week - <span id="play-last-week-hours"></span>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="study-card" class="info-card">
+        <div class="inner-card-container">
+          <div class="sub-category-banner">
+            <p class="sub-category-name">Study</p>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <div class="card-summaries">
+            <h3 id="study-latest-week-hours" class="total-week-hours"></h3>
+            <p class="summary-hours">
+              Last Week - <span id="study-last-week-hours"></span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXERCISE CARD -->
+      <section id="exercise-card" class="info-card">
+        <div class="inner-card-container">
+          <div class="sub-category-banner">
+            <p class="sub-category-name">Exercise</p>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <div class="card-summaries">
+            <h3 id="exercise-latest-week-hours" class="total-week-hours"></h3>
+            <p class="summary-hours">
+              Last Week - <span id="exercise-last-week-hours"></span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SOCIAL CARD -->
+      <section id="social-card" class="info-card">
+        <div class="inner-card-container">
+          <div class="sub-category-banner">
+            <p class="sub-category-name">Social</p>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <div class="card-summaries">
+            <h3 id="social-latest-week-hours" class="total-week-hours">
+              32hrs
+            </h3>
+            <p class="summary-hours">
+              Last Week - <span id="social-last-week-hours"></span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SELF CARE CARD -->
+      <section id="self-care-card" class="info-card">
+        <div class="inner-card-container">
+          <div class="sub-category-banner">
+            <p class="sub-category-name">Self Care</p>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <div class="card-summaries">
+            <h3 id="self-care-latest-week-hours" class="total-week-hours"></h3>
+            <p class="summary-hours">
+              Last Week - <span id="self-care-last-week-hours"></span>
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

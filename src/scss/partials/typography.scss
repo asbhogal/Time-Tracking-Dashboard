@@ -1,56 +1,56 @@
-@use 'variables' as *;
+@use "variables" as *;
 
 /****** RUBIK - 300 REGULAR ******/
 
 @font-face {
-    font-family: 'Rubik';
-    font-weight: 300;
-    font-style: normal;
-    src:                url('../fonts/Rubik-Light.woff') format('woff'),
-                        url('../fonts/Rubik-Light.woff2') format('woff2');
-    font-display: swap;
+  font-family: "Rubik";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/Rubik-Light.woff") format("woff"),
+    url("../fonts/Rubik-Light.woff2") format("woff2");
+  font-display: swap;
 }
 
 /****** RUBIK - 400 REGULAR ******/
 
 @font-face {
-    font-family: 'Rubik';
-    font-weight: 400;
-    font-style: normal;
-    src:                url('../fonts/Rubik-Regular.woff') format('woff'),
-                        url('../fonts/Rubik-Regular.woff2') format('woff2');
-    font-display: swap;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Rubik-Regular.woff") format("woff"),
+    url("../fonts/Rubik-Regular.woff2") format("woff2");
+  font-display: swap;
 }
 
 /****** RUBIK - 500 REGULAR ******/
 
 @font-face {
-    font-family: 'Rubik';
-    font-weight: 500;
-    font-style: normal;
-    src:                url('../fonts/Rubik-Medium.woff') format('woff'),
-                        url('../fonts/Rubik-Medium.woff2') format('woff2');
-    font-display: swap;
+  font-family: "Rubik";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/Rubik-Medium.woff") format("woff"),
+    url("../fonts/Rubik-Medium.woff2") format("woff2");
+  font-display: swap;
 }
 
 * {
-    font-family: 'Rubik', sans-serif;
-    color: $greyish-white;
+  font-family: "Rubik", sans-serif;
+  color: $greyish-white;
 }
 
 h1 {
-    display: flex;
-    flex-direction: column;
-    font-weight: 300;
-    #report-title {
-        font-size: 14px;
-        font-weight: 400;
-    }
-    #profile-name {
-        font-size: 34px;
-    }
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  #report-title {
+    font-size: 0.875rem;
+    font-weight: 400;
+  }
+  #profile-name {
+    font-size: 2.125rem;
+  }
 }
 
 .active {
-    font-weight: 500;
+  font-weight: 500;
 }
